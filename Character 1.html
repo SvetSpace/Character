@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вампир</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>    
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex align-items-flex-start" style="align-items:flex-start; justify-content:flex-start">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <div class="main-image-wrapper">
+                    <img class="main-image" style="height: 470px" src="https://javasea.ru/uploads/posts/2018-06/1529945783_elfiyka-na-fone-luny.jpg" alt="">
+                    </div>
+                    <div class="h" style="justify-content: center;">
+                        <div style="display: flex; flex-direction: column; align-items: center;">
+                        <div style="font-size: 3em;">Вампир</div>
+                        <div style="font-size: 2em; 
+                        text-align: center;">Ночной житель</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto d-flex align-items-center flex-column" style="justify-content: center; align-items: center;">
+                    <div class="block s">
+                        Судьбы её тебе не изменить,<br>
+                        Она приходит под покровом ночи.<br>
+                        Клыки её тебя могут убить.<br>
+                        Когда придёт, гони её ты прочь!<br>
+                        <br>
+                        Её глаза горят огнём из ада,<br>
+                        Сама она чертовски хороша.<br>
+                        И на губах её кровавая помада,<br>
+                        Давно уже у дьявола душа.<br>
+                    </div>
+                    <div class="block s">
+                        <div class="col-auto" style="display: flex; align-items: center;">
+                            <div>   
+                                Харизма<br>
+                                Интелект<br>
+                                Сила<br>
+                                Ловкость
+                            </div>
+                            <div style="margin: 16px;">
+                            </div>
+                            <div>
+                                10<br>
+                                <i class="fas fa-cog fa-spin"></i><br>
+                                10<br>
+                                10
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <style>
+        .main-image-wrapper {
+            width: 350px;
+            height: 350px;            
+            border: 1px solid rgb(83, 2, 2);
+            margin: 32px;
+            box-shadow: 0 0 16px rgb(85, 60, 60);
+            border-radius: 50%;
+            overflow: hidden;   
+            transition: 1.5s;     
+            flex-grow: auto; 
+            flex-basis: auto;
+            max-width: 90%;     
+        }
+        .main-image-wrapper:hover {
+            cursor: none;
+            box-shadow: 0 0 30px rgb(153, 45, 45);
+            transform: scale(1.1);
+        }
+        .main-image {
+            height: 100%;
+        }
+
+        .s {
+            margin: 32px;
+            text-align: center;
+            color: rgb(80, 1, 1);
+            font: 2em Old Classic;
+            line-height: 1;
+            font-weight: bold;
+
+            flex-basis: 0; 
+            flex-grow: 1; 
+            justify-content: center; 
+            align-items: center;
+        }
+        .h {
+            color: rgb(80, 1, 1);
+            font-family: Old Classic;
+            font-weight: bold;
+            flex-grow: 1; 
+            flex-basis: 0;
+        }
+        .block {
+            background-color: rgba(255, 169, 169, 0.3);
+            flex-grow: 0; 
+            flex-basis: auto;
+            margin: 0.3em;
+            padding: 1em;
+            border-radius: 70px;
+        }
+        .column {
+            flex-direction: column;
+            margin: 0em;
+            padding: 0.5em;
+            flex-grow: 0;
+            flex-basis: auto;
+        }
+
+        [class^=col] { 
+            padding-top: .95rem;
+            padding-bottom: .0rem;            
+            flex-grow: 0;
+            flex-basis: auto;
+        }
+
+        body {background: url('https://photocentra.ru/images/main54/546160_main.jpg'); 
+        min-height: 100%;
+        background-size: cover;
+        background-attachment: fixed;    background-position: start start;
+        }
+
+        ::selection {background: rgb(100, 3, 3); color:rgb(236, 163, 163);}        
+        ::-moz-selection {background: rgb(100, 3, 3); color:rgb(236, 163, 163);}
+
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
